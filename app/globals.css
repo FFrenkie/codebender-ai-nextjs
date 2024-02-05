@@ -5,13 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff; /* Updated to crisp white for a clean background */
 }
 
 .App {
   text-align: center;
-  background-color: #000e1e;
+  background-color: #002147; /* Deep navy blue for a rich background */
+  color: #FFD700; /* Gold for text, adding a luxurious touch */
   height: 100vh;
-  color: white;
   display: flex;
   margin: 0;
 }
@@ -37,19 +38,20 @@ body {
 
 .red-text {
   margin-top: 0px;
-  color: red;
+  color: #C90000; /* A deeper red for emphasis */
 }
 
 h1 {
   font-size: 50px;
+  color: #FFD700; /* Gold for headers, enhancing the luxurious theme */
 }
 
 .primaryColor {
-  color: #e02aff;
+  color: #FFD700; /* Switched to gold for primary color elements */
 }
 
 .secondaryColor {
-  color: rgb(184, 65, 184);
+  color: #004B8D; /* Deep blue for secondary color elements */
 }
 
 .mainForm {
@@ -61,18 +63,18 @@ h1 {
   max-width: 400px;
   padding: 10px 20px;
   border-radius: 100px;
-  border: 1px solid white;
+  border: 1px solid #FFD700; /* Gold border for inputs */
   outline: none;
+  color: #002147; /* Text in deep blue for contrast */
 }
 
 .mainButton {
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 1rem;
-  border: 1px solid #e02aff;
-  outline: none;
-  background-color: #e02aff;
-  color: white;
+  border: 1px solid #FFD700; /* Gold border for main button */
+  background-color: #FFD700; /* Gold background */
+  color: #002147; /* Deep blue text for contrast */
   font-weight: 900;
   margin-left: 10px;
   cursor: pointer;
@@ -80,17 +82,16 @@ h1 {
 }
 
 .mainButton:hover {
-  background-color: #8f14d2;
+  background-color: #FFA400; /* A lighter gold for hover effect */
 }
 
 .secondaryButton {
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 1rem;
-  border: 1px solid #e02aff;
-  outline: none;
+  border: 1px solid #FFD700; /* Gold border for secondary button */
   background-color: transparent;
-  color: white;
+  color: #FFD700; /* Gold text for secondary button */
   font-weight: 900;
   margin-left: 10px;
   cursor: pointer;
@@ -98,13 +99,12 @@ h1 {
 }
 
 .secondaryButton:hover {
-  background-color: rgba(184, 65, 184, 0.339);
+  background-color: rgba(255, 165, 0, 0.2); /* Light gold background on hover */
 }
 
-button:disabled,
-button:disabled:hover {
-  background-color: #b7aeb9;
-  border-color: #b7aeb9;
+button:disabled, button:disabled:hover {
+  background-color: #A5A5A5; /* Neutral gray for disabled buttons */
+  border-color: #A5A5A5;
   color: white;
   cursor: not-allowed;
   opacity: 0.5;
@@ -117,7 +117,7 @@ button:disabled:hover {
   height: 50px;
   border: 5px solid #fff;
   border-radius: 50%;
-  border-top-color: #e02aff;
+  border-top-color: #FFD700; /* Gold for the spinner */
   animation: spin 1s ease-in-out infinite;
   -webkit-animation: spin 1s ease-in-out infinite;
 }
@@ -142,7 +142,7 @@ button:disabled:hover {
   margin: auto;
   text-align: left;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid #FFD700; /* Gold border for response boxes */
   border-radius: 20px;
   overflow: auto;
 }
@@ -158,6 +158,14 @@ button:disabled:hover {
 
 .bold {
   font-weight: 800;
+}
+
+.goldText {
+  color: gold;
+}
+
+.redText {
+  color: red;
 }
 
 @media screen and (max-width: 600px) {

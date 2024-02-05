@@ -2,8 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Codebender AI Template',
-  description: 'Template code for the Codebender AI Project',
+  title: 'Donald Trump AI',
+  description: 'Make America Great Again! - Donald Trump ',
 }
 
 export default function RootLayout({

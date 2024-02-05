@@ -24,7 +24,7 @@ export async function POST(req: Request, res: Response) {
     // Ask Dall-E to generate an image based on the prompt
     const response = await openai.images.generate({
       model: "dall-e-3",
-      prompt: prompt,
+      prompt: prompt + " Make the image in an American style, try to use American national symbols, you may also include political parties and what not to make it more American.",
       n: 1,
       size: "1024x1024",
     });
